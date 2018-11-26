@@ -1,6 +1,6 @@
 clc;
 addpath(genpath('./'));
-img = imread('dataset/images/2.bmp');
+img = imread('dataset/bmp/18.bmp');
 hsv = rgb2hsv(img);
 v = hsv(:,:,3);
 gray_v = uint8(v * 255);
